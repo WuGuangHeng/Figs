@@ -42,7 +42,7 @@ example_filename = './S03/fixed.nii.gz'  # fixed image
 img1 = nib.load(example_filename)
 # print(img1.header['db_name'])  # 输出头信息
 
-example2_filename = './S03/deformed_PSMamba.nii.gz'  # warped image
+example2_filename = './S03/deformed_ModeTv2.nii.gz'  # warped image
 # example2_filename = './S11.nii.gz'  # moving image
 img2 = nib.load(example2_filename)
 # print(img2.header['db_name'])  # 输出头信息
